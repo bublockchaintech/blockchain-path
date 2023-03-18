@@ -53,7 +53,7 @@ Blockchain, sadece kripto para ekosisteminin temelini oluşturmakla kalmayıp, b
 
 5. ### Eğitim
 
-Blockchain teknolojisinin sağladığı faydaların eğitim alanında da kullanılabileceği birçok araştırmacı tarafından öngörülmektedir. Yaşam boyu öğrenme fırsatlarını artırmak, akıllı sözleşmeler yoluyla eğitimciler için daha fazla verimlilik sağlamak ve diğer faydaların yanı sıra öğrencilere akademik kayıtlarının blockchain üzerinde saklaması bu faydalar arasında sayılmaktadır. Teknoloji gelişmeye devam ettikçe, blockchain’in eğitim alanında daha büyük bir rol oynaması muhtemel olacaktır.
+   Blockchain teknolojisinin sağladığı faydaların eğitim alanında da kullanılabileceği birçok araştırmacı tarafından öngörülmektedir. Yaşam boyu öğrenme fırsatlarını artırmak, akıllı sözleşmeler yoluyla eğitimciler için daha fazla verimlilik sağlamak ve diğer faydaların yanı sıra öğrencilere akademik kayıtlarının blockchain üzerinde saklaması bu faydalar arasında sayılmaktadır. Teknoloji gelişmeye devam ettikçe, blockchain’in eğitim alanında daha büyük bir rol oynaması muhtemel olacaktır.
 
 Öğrenci kayıtlarının sayısı neredeyse sonsuzdur. Çok sayıda kağıt doküman ve akademik kimlik bilgilerini doğrulamak zaman alıcı olabilmektedir. “Credential Engine” tarafından 2019 yılında gerçekleştirilen analize göre notlar, sertifikalar, dijital rozetler dahil olmak üzere öğrenimi belgeleyen 738.000’den fazla benzersiz kimlik bilgisi bulunmaktadır. Tüm bu veriler blockchain teknolojisi ile güvenli bir şekilde saklanabilmektedir.
 
