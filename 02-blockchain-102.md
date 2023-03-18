@@ -2,6 +2,24 @@
 
 ## **DAĞITIK DEFTER TEKNOLOJİSİ**
 
+### Dağıtık defter teknolojisi (DLT) nedir?
+
+Dağıtık defter teknolojisi (DLT); verilerin, bir ağ üzerinde bulunan birden fazla alanda erişilebilir, güncellenebilir, doğrulanabilir olmasına imkan sağlayan, merkeziyetsiz, teknolojik altyapıdır. Bir tür konsensüs mekanizması olarak tanımlanır.
+
+Dağıtık defter teknolojisi (DLT), Bitcoin ile tanınan bir kavram olsa da geçmişi daha önceye dayanır. Merkezi olan yapılarda da dağıtık sistem kullanılır ancak güncelleme söz konusu olduğunda her yapı periyodik olarak güncellenir ve bu da hem gecikme yaratır hem de siber saldırılara karşı savunmasız bir ortam yaratır. Kriptografi bunun önüne geçerek, merkeziyetsiz ağda güvenilir şekilde işlenmesini sağlar ve bu ilk defa Bitcoin’de uygulanmıştır.
+
+### DLT (Dağıtık Defter Teknolojisi) Nasıl Çalışır?
+
+Dağıtık defter sisteminde, veriler parçalara ayrılır. Her parça, ağ katılımcısı olan kullanıcıların sunucularında saklanır. Bu verilere erişim, doğrulama ve güncelleme işlemleri ağ kullanıcıları tarafından gerçekleştirilir.  DLT ile tüm veriler, kriptografi kullanılarak güvenli şekilde depolanır ve onlara sadece anahtar ile kriptografik imza kullanarak ulaşılabilir.
+
+Dağıtık defter teknolojisini kullanan ilk kriptopara birimi Bitcoin’dir. Bitcoin blokzinciri, dağıtılmış defter teknolojisinin ilk işlevsel kullanımıdır.
+
+### DLT (Dağıtık Defter Teknolojisi) Avantajları:
+
+Dağıtık defter teknolojisinde verilerin tek bir merkezde olmaması ve ağda yer alan tüm düğümlerde tutulması, siber saldırılara karşı savunma gücünü yüksek tutar. Bu teknolojiye karşı bir siber saldırı uygulamak için dağıtılmış olan tüm defter kopyalarına saldırmak gerekir.
+
+Ağa giren verilerin paylaşılması, güncellenmesi gibi işlemleri merkeziyeti olan sisteme göre çok daha hızlı ve ucuz şekilde gerçekleştirir.
+
 ## **PUBLIC & PRIVATE BLOCKZİNCİRLER**
 
 ## **ŞİFRELEME**
