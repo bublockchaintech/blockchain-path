@@ -21,10 +21,70 @@ Dağıtık defter teknolojisinde verilerin tek bir merkezde olmaması ve ağda y
 Ağa giren verilerin paylaşılması, güncellenmesi gibi işlemleri merkeziyeti olan sisteme göre çok daha hızlı ve ucuz şekilde gerçekleştirir.
 
 ## **PUBLIC & PRIVATE BLOCKZİNCİRLER**
+Blok zinciri özünde, zincirdeki her kullanıcı arasındaki işlemleri kaydeden dağıtılmış bir defterdir. Genel olarak tek bir teknoloji olarak kabul edilse de, farklı blok zinciri türleri vardır: genel ve özel.
+
+En iyi bilinen halka açık blok zincirleri, bitcoin işlemleri için kullanılanlar gibi kripto para birimleridir. Tamamen şeffaftırlar.
+
+Bu tür bir platform, ticari sözleşmeler veya bireylerin kişisel bilgileri gibi hassas bilgilerle uğraşan kuruluşlara uygun olmayacaktır.
+
+Özel kuruluşların, davet edilen kullanıcıların verileri herkese açık hale getirmeden işlem yapmasına izin veren özel bir blok zincirine katılma olasılığı daha yüksektir.
+
+Özel blokajlar, kullanıcılar için farklı seviyelerde izinlere izin verir, böylece erişim kısıtlanabilir ve gizliliği korumak için bilgiler şifrelenebilir.
+
+Blockchain teknolojisi, kullanıcıların ihtiyaçlarına göre uyarlanabilir.
+
+### Private ve Public Blockchain Arasındaki Fark Nedir?
+Blockchain, muhasebeden tarıma kadar birçok sektörde potansiyel uygulamalara sahiptir. Esasen, zincirdeki her kullanıcı arasındaki işlemleri kaydeden dağıtılmış bir defterdir.
+
+Farklı blok zinciri türleri vardır: bazı zincirler publictir ve herkesin erişimine açıktır, bazıları private zincirlerdir ve yalnızca onları kullanma izni verilen kişiler tarafından erişilebilir.
+
+Genel bir blockchain açık bir ağdır. Herkes protokolü indirebilir ve okuyabilir, yazabilir veya ağa katılabilir. 
+
+Halka açık bir blok zinciri dağıtılır ve merkezi değildir. İşlemler bloklar halinde kaydedilir ve bir zincir oluşturmak için birbirine bağlanır. Her yeni blok, blok zincirine yazılmadan önce, ağa bağlı düğümler olarak bilinen tüm bilgisayarlar tarafından zaman damgalanmalı ve doğrulanmalıdır.
+
+Tüm işlemler herkese açıktır ve tüm düğümler eşittir. Bu, halka açık bir blok zincirinin değişmez olduğu anlamına gelir: doğrulandıktan sonra veriler değiştirilemez.
+
+Kripto para birimi için kullanılan en iyi bilinen halka açık blok zincirleri Bitcoin ve Ethereum'dur: açık kaynaklı, akıllı sözleşme blok zincirleri.
+
+Özel bir blok zinciri, tek bir varlık tarafından yönetilen, yalnızca davet edilen bir ağdır. 
+
+Ağa giriş yapanlar, blok zincirini okumak, yazmak veya denetlemek için izin gerektirir. Farklı erişim seviyeleri olabilir ve ticari gizliliği korumak için bilgiler şifrelenebilir.
+
+Private zincirler, kuruluşların verileri herkese açık hale getirmeden dağıtılmış defter teknolojisi kullanmasına olanak tanır.
+
+Ancak bu, blok zincirlerinin tanımlayıcı bir özelliğinden yoksun oldukları anlamına gelir: ademi merkeziyetçilik. Bazı eleştirmenler, özel blok zincirlerinin hiç blok zinciri olmadığını, ancak dağıtılmış defter teknolojisini kullanan merkezi veritabanları olduğunu iddia ediyor.
+
+Private zincirler, işlemleri doğrulamak için çok fazla zaman ve enerji gerektiren public zincirlerden daha hızlı, daha verimli ve daha uygun maliyetlidir.
+
+### Blok zincirleri ne kadar güvenli?
+Özel bir blok zinciri, kullanıcıların bilgilere erişimini kontrol eder, ancak genel bir blok zincirinden daha az güvenlidir.
+
+Halka açık bir blok zinciri tamamen şeffaf bir defterdir. Merkezi olmadığı için bilgiler şifrelenir ve birden fazla cihazda depolanır. Bu, halka açık bir blok zincirini hacklemeyi neredeyse imkansız hale getirir. Bir blockchain ne kadar çok üyeye sahipse, o kadar güvenlidir.
+
+Özel bir blockchain ise sahibi tarafından değiştirilebilir. Ayrıca bilgisayar korsanlığına karşı daha savunmasızdır.
+
 
 ## **ŞİFRELEME**
 
+Şifreleme Private Key and Public Key (Özel Anahtar- Genel Anahtar) prensibi ile çalışmaktadır.
+
+Bu yöntem, “simetrik şifreleme yöntemi” olarak bilinen ve şifreleme ile şifre çözmenin aynı anahtar parola ile yapılması metodundan farklıdır.
+
+Şifreleme metodunda, veri şifre sahibinin 2 adet anahtarı vardır. Bunlara Private Key and Public Key adı verilir.
+
+Özel Anahtar ve Genel Anahtarı bana ait birbirlerinin aynı olan iki anahtar gibidir. Aralarındaki tek fark, Private Anahtarın sadece bizim bildiğimiz anahtar olmasıdır. Public Anahtar yine bize ait ama herkes ile paylaştığımız herkesin görebileceği bir anahtardır. Örnek verirsek Public key günlük hayatta kullandığımız sanal hesap numarası IBAN no diyebiliriz.Private key ise evimizin anahtarı olarak düşünebilirsiniz. Evinizin anahtarı olmadan özel alanınızda hiçbir faaliyet göstermezsiniz.
+
+Bu sistem sayesinde dijital varlıkların herhangi bir aracıya ihtiyacı olmaksızın güvenli bir şekilde bir taraftan öbürüne taşınması sağlanıyor.
+
+### Digital Signature
+Dijital imza, kriptografik tekniklere dayalı elektronik imza olarak tanımlanabilir. Başka bir ifade ile dijital ortamda gönderilen verinin kaynağı ve özgünlüğü dijital imzalar aracılığıyla kanıtlanmaktadır. Dijital imzalar söz konusu doğrulamaları gerçekleştirmek için hash ve asimetrik şifreleme yöntemi gibi kriptografik yöntemlerden yararlanır.
+
+Kriptografik özet ya da hash, rastgele uzunluktaki bir girdiyi sabit uzunlukta şifrelenmiş bir çıktıya dönüştüren matematiksel bir algoritmadır. SHA-256 fonksiyonu da bu amaçla en fazla kullanılan matematiksel algoritmalardan biridir. SHA-256 algoritmasıyla şifrelenen her veri, girdinin boyutundan bağımsız olarak 64 karaktere veya 256 bit’lik bir boyuta indirgenmektedir.
+
 ## **AKILLI KONTRATLAR**
+Bir an için akıllı sözleşmeyi ve blockchain'i unutun. Genel olarak sözleşmeleri düşünün. Bunlar, bazı işlemlerin (örneğin; para değişimi) gerçekleşmesi için yerine getirilmesi gereken bazı koşulları içerir. Örneğin, bana bir dizüstü bilgisayar satıyorsanız, yalnızca dizüstü bilgisayarın düzgün çalışması durumunda size ödeme yapmaktan sorumlu olacağımı belirten bir sözleşme yer alacaktır. Benzer şekilde, akıllı sözleşmeler, işlemlerin bir blok zincirinde gerçekleşmesi için yerine getirilmesi gereken ön koşuldur.
+
+Akıllı sözleşme, diğer sözleşmelerde olduğu gibi, bir anlaşmanın koşullarını belirler. Ama geleneksel bir sözleşmenin aksine, akıllı sözleşmenin koşulları Ethereum gibi bir blok zincirinin üzerinde çalışan kodlar şeklinde yürütülür. Akıllı sözleşmeler, kredi ve sigortadan lojistik ve oyunlara kadar çok yönlü eşler arası işlev sunarak geliştiricilerin blok zincirinin sunduğu güvenlik, güvenilirlik ve erişilebilirlikten faydalanan uygulamalar oluşturmasına olanak tanır.
 
 ## **MAHREMİYET**
 
