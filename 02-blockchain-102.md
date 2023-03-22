@@ -91,13 +91,19 @@ Akıllı sözleşme, diğer sözleşmelerde olduğu gibi, bir anlaşmanın koşu
 ---
 
 ## **KRİPTO PARALAR**
+Kripto para veya kısaca kripto, bir değişim aracı olarak çalışmak üzere, işlemleri güvence altına almak için matematiğin bir dalı olan kriptografi kullanılarak tasarlanmış bir dijital unsurdur. Kripto paralar bir nevi dijital döviz, alternatif döviz ve sanal dövizdir. Kripto varlıklar, merkezi elektronik para ve merkezi bankacılık sistemlerin aksine tümüyle merkeziyetsizlerdir. Her bir kripto para biriminin merkeziyetsizliği, umumi işlem veri tabanı olan dağıtık muhasebe defteri (ledger) olarak işlev gören bir blok zincirinden (Blockchain) gelmektedir.
 
+2009’da Satoshi Nakamoto tarafından oluşturulan Bitcoin, ilk merkeziyetsiz kripto paradır.[7] O zamandan beri birçok farklı kripto para ortaya çıkmıştır. Bitcoin dışındaki kripto para birimlerine genel olarak altcoin denilir ki bu kısaltma alternatif ve coin yani madeni para’nın birleşimidir.
 ### TOKEN NEDİR?
-
+Kripto paralar içinde sıklıkla duyduğumuz token'lar aslında birer dijital varlık ve her birinin birim değerleri var. 
+Bu değerler, onları belli oranlarda alım satıma açık hale getiriyor. Aynı zamanda token'lar oluşturuldukları platformun tüm yönlerinden yararlanmanıza olanak veren transfer edilebilen dijital mülkler olarak da tanımlanmakta. Aslında token üretiminin amacı, yer aldıkları platformun sürekliliğini sağlamak ve kalitesini yükseltmektir. Zira bir token'ın değer, belli bir ürünü ya da hizmeti temsil ediyor olabilir. Örneğin token'ı üreten bir teknoloji firmasıysa bu durumda token'ın değeri, o şirketin yazılım hizmetinin yıllık lisansı olabilir. Diğer yandan söz konusu tekstil markasıysa o token, bir bluz ya da elbise olabilir. Hatta token üretimleri kişi bazlı bile olabilir ve saatlik iş gücü olarak değerlenir. Örnekleri bu şekilde artırmak mümkün. Burada altı çizilmek istenen konu, her token'ın belli bir ürün ya da hizmete dönüştürülebileceğidir.
 ### COIN NEDİR?
-
+ Coin'ler, belli bir kriptoloji kullanılarak yaratılıyor. Bu şifreleme sistemi içinde kendilerine ait bir de blok zincire sahip olan coin çeşitleri, zaman içinde değer depolayarak paraya eşdeğer bir dijital unsur halini alıyor. Coin'lerin dayandığı dijital defter olan ve Blockchain olarak adlandırılan bu blok zincirlerde, veriler toplu olarak saklanmakta. Ayrıca bu zincirde, dolandırıcılığı engellemek amacıyla şeffaflık hakim. Bir coin üretmek için öncelikle bir blok zincir yaratmak gerekiyor. Zira coin'ler, var olan blok zincirler üzerine değil, yeni zincirler oluşturularak yaratılıyor.
 ### FARKLARI
-
+Token ve coin. Bu iki dijital unsur hem oluşturuluş biçimleri hem de kullanım yönleri olarak birbirinden ayrışıyor. 
+-  Dijital bir para olan coin ile para satın alınabilirken token ile bir ürün ya da hizmet satın alınabiliyor.
+- Bir coin üretmek için öncelikle bir blok zincir yaratmak gerekiyor. Token ise coin'den farklı olarak bir dijital varlık şeklinde tanımlanmakta. Üstelik yaratılması da coin'e kıyasla çok daha kolay. Zira token üretmek için kriptoloji bilmenize gerek yok. Farklı projeler vasıtasıyla üretilen token çeşitleri, ödeme yöntemi olarak da kullanılabiliyor.
+- Token ile coin arasındaki en bariz fark, sahibine ağa katılma hakkı vermesi. Token oluşturmak için birkaç basit adımı takip etmek yeterli. Bunun için size yardımcı olacak platformlardan destek alarak kolaylıkla token'ını kendi oluşturabilirsin. Tek ihtiyacın olan blok zinciri tabanlı standart bir şablon kullanmak. Bu şablonlar, kullanıcının farklı belirteçleri tek bir cüzdanda saklaması için zemin hazırlıyor.
 > Gökşen
 
 ---
