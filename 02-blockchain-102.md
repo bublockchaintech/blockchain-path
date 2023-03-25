@@ -173,9 +173,15 @@ PoW konsensüsü, ağda yayınlanacak olan bir sonraki bloğu oluşturmak adına
 
 - İş İspatı, çoğunluğu temel alan karar mekanizmasında temsilcilerin belirlenmesi problemini de çözüyor. Çoğunluğu oluşturmak için her IP adresi başına bir oy prensibi benimsenmiş olsaydı çok sayıda IP adresi edinebilecek herkes kendi başına çoğunluğu oluşturabilirdi. İş İspatı mekanizmasının temelinde ise her CPU başına bir oy prensibi bulunuyor. Çoğunluk kararını temsil eden en uzun zincir, aynı zamanda, en fazla İş İspatı çabasını sağlamış olan zincir. CPU gücünün çoğunluğu dürüst node’lar tarafından kontrol edilirse bu dürüst zincir, en hızlı büyüyen zincir olacaktır ve rakiplerinin önüne geçecektir.
 
-POW'a bakarken madencilere de değinmezsek olmaz;
+**POW'a bakarken madencilere de değinmezsek olmaz;**
 
-- Bitcoin özelinde madenciler, her 10 dakikada bir oluşturulan yeni blokları üretmek ve ağa yayınlamak için birbirleriyle rekabet eden bir katılımcı piyasasıdır. Her 10 dakikalık raundun sonunda kazanan madenci hem blok ödülünü (an itibarıyla 6,25 BTC) hem de bloktaki işlem ücretlerini alır. Bu sistem, iki sebepten dolayı madencilerin blok üretiminde dürüst davranmalarını teşvik eder.
+Bitcoin özelinde madenciler, her 10 dakikada bir oluşturulan yeni blokları üretmek ve ağa yayınlamak için birbirleriyle rekabet eden bir katılımcı piyasasıdır. Her 10 dakikalık raundun sonunda kazanan madenci hem blok ödülünü (an itibarıyla 6,25 BTC) hem de bloktaki işlem ücretlerini alır. Bu sistem, iki sebepten dolayı madencilerin blok üretiminde dürüst davranmalarını teşvik eder.
+
+İlk olarak madenciler, Bitcoin’in madencilik algoritmasını çözmek için pahalı donanım ekipmanlara yüksek miktarlarda yatırım yaparlar. Bu sayede, işlem gücünü sürekli olarak kullanıp tabiri caizse kaba kuvvetle çözümü bulmaya çalışırlar ve bunun için yüksek miktarda elektrik enerjisi tüketirler.
+
+Madenciler kötü niyetli davranır ve madencilik sürecini çökertmeye çalışırlarsa hem Bitcoin’in itibarına zarar veriler hem de donanımlarına yaptıkları yatırımın maliyeti artar. Bunun sebebi, blok ödülü olarak kazandıkları BTC’lerden yatırım getirilerinin (ROI) düşecek olmasıdır ve bu da ikinci sebebi ortaya çıkarır.
+
+Madenciler blok ödüllerini nakit olarak değil, doğrudan BTC olarak alırlar. Bunun sonucunda, gerçek dünyadaki bir kaynak olan elektrik enerjisini BTC üretimine harcarlar ve Bitcoin’in güvenlik modelinin temelindeki, sahtesi oluşturulamayacak değer üretimini desteklerler. Dahası, madenciler BTC üretiminde sade bir itibari parayı (donanım ekipman formunda) değil, gerçek bir kaynağı dönüştürdükleri için blok zinciri de gerçek hayatta geçerli olan bir tür değer kazanmış olur.
 
 ### **POS (Proof of Stake)**
 
@@ -195,7 +201,3 @@ Node’lar blokzinciri üzerindeki düğüm, yani bağlantı noktalarıdır. Bu 
   Light Node, belirli bir dönem içerisinde blokzinciri üzerinde gerçekleşen işlemlerin kopyalarının tutulduğu düğüm çeşidine verilen isimdir. Full node’dan farklı olarak tüm geçmişi tutmak yerine, bağlı olduğu önceki bloğa ilişkin bilgileri içermektedir.
 - **Authority Node**
   Authority node, Proof of Authority protokolüyle yakından ilişkili bir kavramdır. Proof of Authority yani Yetki İspatı, blokzincirindeki işlem bloklarını doğrulayan kullanıcılar işlemleri doğrulamak için kimlik ve itibarlarını kullandıkları protokole verilen isimdir. Authority Node’lar ise bu Yetki İspatı sistemi içerisinde yeni blokların doğrulanması için kullanılır.
-
-## **MINING**
-
-> Eren
