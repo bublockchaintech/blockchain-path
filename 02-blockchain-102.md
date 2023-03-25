@@ -167,6 +167,20 @@ Bitcoin sadece bir ödeme ağı iken Ethereum daha çok finansal servisler, oyun
 
 ## **POW vs POS**
 
+### **POW (Proof of Work)**
+
+PoW konsensüsü, ağda yayınlanacak olan bir sonraki bloğu oluşturmak adına, belli bir eşiğin (nonce) altında olan bir değer karşılığında matematiksel bulmacaları çözmeye dayanır. Sonraki bloku oluşturan blok liderleri loto benzeri bir formatla seçilir. Bu seçim, madencilerin işlemi gerçekleştirmek için katkıda bulundukları işlem (hash) gücüne doğrudan bağlıdır. Satoshi Nakamoto’nun Bitcoin whitepaper’ında açıkladığı üzere:
+
+- İş İspatı, çoğunluğu temel alan karar mekanizmasında temsilcilerin belirlenmesi problemini de çözüyor. Çoğunluğu oluşturmak için her IP adresi başına bir oy prensibi benimsenmiş olsaydı çok sayıda IP adresi edinebilecek herkes kendi başına çoğunluğu oluşturabilirdi. İş İspatı mekanizmasının temelinde ise her CPU başına bir oy prensibi bulunuyor. Çoğunluk kararını temsil eden en uzun zincir, aynı zamanda, en fazla İş İspatı çabasını sağlamış olan zincir. CPU gücünün çoğunluğu dürüst node’lar tarafından kontrol edilirse bu dürüst zincir, en hızlı büyüyen zincir olacaktır ve rakiplerinin önüne geçecektir.
+
+POW'a bakarken madencilere de değinmezsek olmaz;
+
+- Bitcoin özelinde madenciler, her 10 dakikada bir oluşturulan yeni blokları üretmek ve ağa yayınlamak için birbirleriyle rekabet eden bir katılımcı piyasasıdır. Her 10 dakikalık raundun sonunda kazanan madenci hem blok ödülünü (an itibarıyla 6,25 BTC) hem de bloktaki işlem ücretlerini alır. Bu sistem, iki sebepten dolayı madencilerin blok üretiminde dürüst davranmalarını teşvik eder.
+
+### **POS (Proof of Stake)**
+
+Hisse ispatı, (PoS) bir kripto para blok zinciri ağının dağıtık fikir birliğine ulaşmayı amaçladığı bir algoritma türüdür. PoS tabanlı kripto para birimlerinde, bir sonraki bloğu oluşturan, rassal seçim ve zenginliğin (yani, hissenin) çeşitli kombinasyonları yoluyla seçilir. Aksine, bitcoin gibi emek ispatına dayanan kripto paraların algoritması, madencilik kullanır. Yani, kayıtları (transaction) doğrulamak ve yeni bloklar oluşturmak için yoğun hesaplamalı bulmacaların çözümünü gerektirir.
+
 ## **NODE**
 
 Bitcoin ağı, dağıtık ve eşten eşe bir sistemden oluşur. Bu sistem içerisinde node (düğüm), blokzinciri üzerinde gerçekleşen işlemlerin kopyalarını tutan cihazlara verilen isimdir. Node ismini alan cihazlar, Bitcoin işleminin gerçekleştirildiği herhangi bir bilgisayar veya aygıt olabilir. Diğer bir deyişle node, Bitcoin ağı üzerindeki iletişim noktalarıdır. Node’lar, blokzincirinin bütünlüğünü korumayı hedefler. Node’lar aracılığıyla, dışarıdan gelebilecek herhangi bir müdahaleye karşı blokların geçmişi korunmaktadır.
