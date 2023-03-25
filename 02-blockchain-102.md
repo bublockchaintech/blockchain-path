@@ -10,7 +10,7 @@ Dağıtık defter teknolojisi (DLT), Bitcoin ile tanınan bir kavram olsa da ge�
 
 ### DLT (Dağıtık Defter Teknolojisi) Nasıl Çalışır?
 
-Dağıtık defter sisteminde, veriler parçalara ayrılır. Her parça, ağ katılımcısı olan kullanıcıların sunucularında saklanır. Bu verilere erişim, doğrulama ve güncelleme işlemleri ağ kullanıcıları tarafından gerçekleştirilir.  DLT ile tüm veriler, kriptografi kullanılarak güvenli şekilde depolanır ve onlara sadece anahtar ile kriptografik imza kullanarak ulaşılabilir.
+Dağıtık defter sisteminde, veriler parçalara ayrılır. Her parça, ağ katılımcısı olan kullanıcıların sunucularında saklanır. Bu verilere erişim, doğrulama ve güncelleme işlemleri ağ kullanıcıları tarafından gerçekleştirilir. DLT ile tüm veriler, kriptografi kullanılarak güvenli şekilde depolanır ve onlara sadece anahtar ile kriptografik imza kullanarak ulaşılabilir.
 
 Dağıtık defter teknolojisini kullanan ilk kriptopara birimi Bitcoin’dir. Bitcoin blokzinciri, dağıtılmış defter teknolojisinin ilk işlevsel kullanımıdır.
 
@@ -21,6 +21,7 @@ Dağıtık defter teknolojisinde verilerin tek bir merkezde olmaması ve ağda y
 Ağa giren verilerin paylaşılması, güncellenmesi gibi işlemleri merkeziyeti olan sisteme göre çok daha hızlı ve ucuz şekilde gerçekleştirir.
 
 ## **PUBLIC & PRIVATE BLOCKZİNCİRLER**
+
 Blok zinciri özünde, zincirdeki her kullanıcı arasındaki işlemleri kaydeden dağıtılmış bir defterdir. Genel olarak tek bir teknoloji olarak kabul edilse de, farklı blok zinciri türleri vardır: genel ve özel.
 
 En iyi bilinen halka açık blok zincirleri, bitcoin işlemleri için kullanılanlar gibi kripto para birimleridir. Tamamen şeffaftırlar.
@@ -34,11 +35,12 @@ Bu tür bir platform, ticari sözleşmeler veya bireylerin kişisel bilgileri gi
 Blockchain teknolojisi, kullanıcıların ihtiyaçlarına göre uyarlanabilir.
 
 ### Private ve Public Blockchain Arasındaki Fark Nedir?
+
 Blockchain, muhasebeden tarıma kadar birçok sektörde potansiyel uygulamalara sahiptir. Esasen, zincirdeki her kullanıcı arasındaki işlemleri kaydeden dağıtılmış bir defterdir.
 
 Farklı blok zinciri türleri vardır: bazı zincirler publictir ve herkesin erişimine açıktır, bazıları private zincirlerdir ve yalnızca onları kullanma izni verilen kişiler tarafından erişilebilir.
 
-Genel bir blockchain açık bir ağdır. Herkes protokolü indirebilir ve okuyabilir, yazabilir veya ağa katılabilir. 
+Genel bir blockchain açık bir ağdır. Herkes protokolü indirebilir ve okuyabilir, yazabilir veya ağa katılabilir.
 
 Halka açık bir blok zinciri dağıtılır ve merkezi değildir. İşlemler bloklar halinde kaydedilir ve bir zincir oluşturmak için birbirine bağlanır. Her yeni blok, blok zincirine yazılmadan önce, ağa bağlı düğümler olarak bilinen tüm bilgisayarlar tarafından zaman damgalanmalı ve doğrulanmalıdır.
 
@@ -46,7 +48,7 @@ Tüm işlemler herkese açıktır ve tüm düğümler eşittir. Bu, halka açık
 
 Kripto para birimi için kullanılan en iyi bilinen halka açık blok zincirleri Bitcoin ve Ethereum'dur: açık kaynaklı, akıllı sözleşme blok zincirleri.
 
-Özel bir blok zinciri, tek bir varlık tarafından yönetilen, yalnızca davet edilen bir ağdır. 
+Özel bir blok zinciri, tek bir varlık tarafından yönetilen, yalnızca davet edilen bir ağdır.
 
 Ağa giriş yapanlar, blok zincirini okumak, yazmak veya denetlemek için izin gerektirir. Farklı erişim seviyeleri olabilir ve ticari gizliliği korumak için bilgiler şifrelenebilir.
 
@@ -57,12 +59,12 @@ Ancak bu, blok zincirlerinin tanımlayıcı bir özelliğinden yoksun oldukları
 Private zincirler, işlemleri doğrulamak için çok fazla zaman ve enerji gerektiren public zincirlerden daha hızlı, daha verimli ve daha uygun maliyetlidir.
 
 ### Blok zincirleri ne kadar güvenli?
+
 Özel bir blok zinciri, kullanıcıların bilgilere erişimini kontrol eder, ancak genel bir blok zincirinden daha az güvenlidir.
 
 Halka açık bir blok zinciri tamamen şeffaf bir defterdir. Merkezi olmadığı için bilgiler şifrelenir ve birden fazla cihazda depolanır. Bu, halka açık bir blok zincirini hacklemeyi neredeyse imkansız hale getirir. Bir blockchain ne kadar çok üyeye sahipse, o kadar güvenlidir.
 
 Özel bir blockchain ise sahibi tarafından değiştirilebilir. Ayrıca bilgisayar korsanlığına karşı daha savunmasızdır.
-
 
 ## **ŞİFRELEME**
 
@@ -77,11 +79,13 @@ Bu yöntem, “simetrik şifreleme yöntemi” olarak bilinen ve şifreleme ile 
 Bu sistem sayesinde dijital varlıkların herhangi bir aracıya ihtiyacı olmaksızın güvenli bir şekilde bir taraftan öbürüne taşınması sağlanıyor.
 
 ### Digital Signature
+
 Dijital imza, kriptografik tekniklere dayalı elektronik imza olarak tanımlanabilir. Başka bir ifade ile dijital ortamda gönderilen verinin kaynağı ve özgünlüğü dijital imzalar aracılığıyla kanıtlanmaktadır. Dijital imzalar söz konusu doğrulamaları gerçekleştirmek için hash ve asimetrik şifreleme yöntemi gibi kriptografik yöntemlerden yararlanır.
 
 Kriptografik özet ya da hash, rastgele uzunluktaki bir girdiyi sabit uzunlukta şifrelenmiş bir çıktıya dönüştüren matematiksel bir algoritmadır. SHA-256 fonksiyonu da bu amaçla en fazla kullanılan matematiksel algoritmalardan biridir. SHA-256 algoritmasıyla şifrelenen her veri, girdinin boyutundan bağımsız olarak 64 karaktere veya 256 bit’lik bir boyuta indirgenmektedir.
 
 ## **AKILLI KONTRATLAR**
+
 Bir an için akıllı sözleşmeyi ve blockchain'i unutun. Genel olarak sözleşmeleri düşünün. Bunlar, bazı işlemlerin (örneğin; para değişimi) gerçekleşmesi için yerine getirilmesi gereken bazı koşulları içerir. Örneğin, bana bir dizüstü bilgisayar satıyorsanız, yalnızca dizüstü bilgisayarın düzgün çalışması durumunda size ödeme yapmaktan sorumlu olacağımı belirten bir sözleşme yer alacaktır. Benzer şekilde, akıllı sözleşmeler, işlemlerin bir blok zincirinde gerçekleşmesi için yerine getirilmesi gereken ön koşuldur.
 
 Akıllı sözleşme, diğer sözleşmelerde olduğu gibi, bir anlaşmanın koşullarını belirler. Ama geleneksel bir sözleşmenin aksine, akıllı sözleşmenin koşulları Ethereum gibi bir blok zincirinin üzerinde çalışan kodlar şeklinde yürütülür. Akıllı sözleşmeler, kredi ve sigortadan lojistik ve oyunlara kadar çok yönlü eşler arası işlev sunarak geliştiricilerin blok zincirinin sunduğu güvenlik, güvenilirlik ve erişilebilirlikten faydalanan uygulamalar oluşturmasına olanak tanır.
@@ -91,20 +95,28 @@ Akıllı sözleşme, diğer sözleşmelerde olduğu gibi, bir anlaşmanın koşu
 ---
 
 ## **KRİPTO PARALAR**
+
 Kripto para veya kısaca kripto, bir değişim aracı olarak çalışmak üzere, işlemleri güvence altına almak için matematiğin bir dalı olan kriptografi kullanılarak tasarlanmış bir dijital unsurdur. Kripto paralar bir nevi dijital döviz, alternatif döviz ve sanal dövizdir. Kripto varlıklar, merkezi elektronik para ve merkezi bankacılık sistemlerin aksine tümüyle merkeziyetsizlerdir. Her bir kripto para biriminin merkeziyetsizliği, umumi işlem veri tabanı olan dağıtık muhasebe defteri (ledger) olarak işlev gören bir blok zincirinden (Blockchain) gelmektedir.
 
 2009’da Satoshi Nakamoto tarafından oluşturulan Bitcoin, ilk merkeziyetsiz kripto paradır.[7] O zamandan beri birçok farklı kripto para ortaya çıkmıştır. Bitcoin dışındaki kripto para birimlerine genel olarak altcoin denilir ki bu kısaltma alternatif ve coin yani madeni para’nın birleşimidir.
+
 ### TOKEN NEDİR?
-Kripto paralar içinde sıklıkla duyduğumuz token'lar aslında birer dijital varlık ve her birinin birim değerleri var. 
+
+Kripto paralar içinde sıklıkla duyduğumuz token'lar aslında birer dijital varlık ve her birinin birim değerleri var.
 Bu değerler, onları belli oranlarda alım satıma açık hale getiriyor. Aynı zamanda token'lar oluşturuldukları platformun tüm yönlerinden yararlanmanıza olanak veren transfer edilebilen dijital mülkler olarak da tanımlanmakta. Aslında token üretiminin amacı, yer aldıkları platformun sürekliliğini sağlamak ve kalitesini yükseltmektir. Zira bir token'ın değer, belli bir ürünü ya da hizmeti temsil ediyor olabilir. Örneğin token'ı üreten bir teknoloji firmasıysa bu durumda token'ın değeri, o şirketin yazılım hizmetinin yıllık lisansı olabilir. Diğer yandan söz konusu tekstil markasıysa o token, bir bluz ya da elbise olabilir. Hatta token üretimleri kişi bazlı bile olabilir ve saatlik iş gücü olarak değerlenir. Örnekleri bu şekilde artırmak mümkün. Burada altı çizilmek istenen konu, her token'ın belli bir ürün ya da hizmete dönüştürülebileceğidir.
+
 ### COIN NEDİR?
- Coin'ler, belli bir kriptoloji kullanılarak yaratılıyor. Bu şifreleme sistemi içinde kendilerine ait bir de blok zincire sahip olan coin çeşitleri, zaman içinde değer depolayarak paraya eşdeğer bir dijital unsur halini alıyor. Coin'lerin dayandığı dijital defter olan ve Blockchain olarak adlandırılan bu blok zincirlerde, veriler toplu olarak saklanmakta. Ayrıca bu zincirde, dolandırıcılığı engellemek amacıyla şeffaflık hakim. Bir coin üretmek için öncelikle bir blok zincir yaratmak gerekiyor. Zira coin'ler, var olan blok zincirler üzerine değil, yeni zincirler oluşturularak yaratılıyor.
+
+Coin'ler, belli bir kriptoloji kullanılarak yaratılıyor. Bu şifreleme sistemi içinde kendilerine ait bir de blok zincire sahip olan coin çeşitleri, zaman içinde değer depolayarak paraya eşdeğer bir dijital unsur halini alıyor. Coin'lerin dayandığı dijital defter olan ve Blockchain olarak adlandırılan bu blok zincirlerde, veriler toplu olarak saklanmakta. Ayrıca bu zincirde, dolandırıcılığı engellemek amacıyla şeffaflık hakim. Bir coin üretmek için öncelikle bir blok zincir yaratmak gerekiyor. Zira coin'ler, var olan blok zincirler üzerine değil, yeni zincirler oluşturularak yaratılıyor.
+
 ### FARKLARI
-Token ve coin. Bu iki dijital unsur hem oluşturuluş biçimleri hem de kullanım yönleri olarak birbirinden ayrışıyor. 
--  Dijital bir para olan coin ile para satın alınabilirken token ile bir ürün ya da hizmet satın alınabiliyor.
+
+Token ve coin. Bu iki dijital unsur hem oluşturuluş biçimleri hem de kullanım yönleri olarak birbirinden ayrışıyor.
+
+- Dijital bir para olan coin ile para satın alınabilirken token ile bir ürün ya da hizmet satın alınabiliyor.
 - Bir coin üretmek için öncelikle bir blok zincir yaratmak gerekiyor. Token ise coin'den farklı olarak bir dijital varlık şeklinde tanımlanmakta. Üstelik yaratılması da coin'e kıyasla çok daha kolay. Zira token üretmek için kriptoloji bilmenize gerek yok. Farklı projeler vasıtasıyla üretilen token çeşitleri, ödeme yöntemi olarak da kullanılabiliyor.
 - Token ile coin arasındaki en bariz fark, sahibine ağa katılma hakkı vermesi. Token oluşturmak için birkaç basit adımı takip etmek yeterli. Bunun için size yardımcı olacak platformlardan destek alarak kolaylıkla token'ını kendi oluşturabilirsin. Tek ihtiyacın olan blok zinciri tabanlı standart bir şablon kullanmak. Bu şablonlar, kullanıcının farklı belirteçleri tek bir cüzdanda saklaması için zemin hazırlıyor.
-> Gökşen
+  > Gökşen
 
 ---
 
@@ -139,9 +151,19 @@ Blockchain, sadece kripto para ekosisteminin temelini oluşturmakla kalmayıp, b
 
    Blockchain teknolojisinin sağladığı faydaların eğitim alanında da kullanılabileceği birçok araştırmacı tarafından öngörülmektedir. Yaşam boyu öğrenme fırsatlarını artırmak, akıllı sözleşmeler yoluyla eğitimciler için daha fazla verimlilik sağlamak ve diğer faydaların yanı sıra öğrencilere akademik kayıtlarının blockchain üzerinde saklaması bu faydalar arasında sayılmaktadır. Teknoloji gelişmeye devam ettikçe, blockchain’in eğitim alanında daha büyük bir rol oynaması muhtemel olacaktır.
 
-Öğrenci kayıtlarının sayısı neredeyse sonsuzdur. Çok sayıda kağıt doküman ve akademik kimlik bilgilerini doğrulamak zaman alıcı olabilmektedir. “Credential Engine” tarafından 2019 yılında gerçekleştirilen analize göre notlar, sertifikalar, dijital rozetler dahil olmak üzere öğrenimi belgeleyen 738.000’den fazla benzersiz kimlik bilgisi bulunmaktadır. Tüm bu veriler blockchain teknolojisi ile güvenli bir şekilde saklanabilmektedir.
+   Öğrenci kayıtlarının sayısı neredeyse sonsuzdur. Çok sayıda kağıt doküman ve akademik kimlik bilgilerini doğrulamak zaman alıcı olabilmektedir. “Credential Engine” tarafından 2019 yılında gerçekleştirilen analize göre notlar, sertifikalar, dijital rozetler dahil olmak üzere öğrenimi belgeleyen 738.000’den fazla benzersiz kimlik bilgisi bulunmaktadır. Tüm bu veriler blockchain teknolojisi ile güvenli bir şekilde saklanabilmektedir.
 
 ## **ETHEREUM**
+
+2015'te piyasaya sürülen Ethereum, Bitcoin'in inovasyonu üzerine bazı büyük farklılıklarla birlikte inşaa edilmektedir.
+
+Her ikisi de dijital paraları ödeme sağlayıcıları veya bankalar olmadan kullanmanızı sağlar. Ancak Ethereum programlanabilirdir, böylece ağında merkeziyetsiz uygulamalar inşaa edip dağıtabilirsiniz.
+
+Ethereum programlanabilir olduğundan, veri depolamak veya uygulamanızın neler yapabileceğini kontrol etmek için blok zincir kullanan uygulamalar oluşturabilirsiniz. Sonuç olarak Ethereum ağında gerçekleşecek harika bir yenilik olan sınırsız her şeyi yapmak için programlanabilen genel amaçlı bir blok zincirdir.
+
+Bitcoin sadece bir ödeme ağı iken Ethereum daha çok finansal servisler, oyunlar, sosyal ağlar ve gizliliğinize saygı duyan ve sizi sansürleyemeyen diğer uygulamalardan oluşan bir pazar yeri gibidir.
+
+![](./assets/eth-does.png)
 
 ## **POW vs POS**
 
